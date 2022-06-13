@@ -1,0 +1,139 @@
+body
+{
+	background-color: #f8b627da;
+	color: #bb1c00;
+	font-family: "comic sans ms";
+	font-size: 11pt;
+}
+h1
+{
+	border-bottom: 3px solid #801502;
+	font-size: 30pt;
+	text-align: center;
+}
+#pictureAle
+{
+	margin-left: 0px;
+	padding-left: 10px;
+}
+.wrapper
+{
+	display: flex;
+}
+h2#introduction
+{
+	font-size: 20pt;
+	padding: 10px;
+	padding-right: 180pt;
+	text-align: center;
+}
+p#history
+{
+	color: #a01901;
+	font-size: medium;
+	padding-left: 40pt;
+	padding-right: 80pt;
+	text-align: justify;
+}
+#header
+{
+	height: 90px;
+}
+#navigation
+{
+	background: #EF1040;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.4);
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+	top: 10px;
+}
+#navigation.fixed
+{
+	background: rgba(239, 5, 5, 0.95);
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+#navigation ul
+{
+	left: 32%;
+	margin: 0 auto;
+	position: absolute;
+}
+#menu li
+{
+	float: left;
+	list-style: none;
+	padding: 0 25px;
+}
+#menu>li a:hover
+{
+	color: #656565;
+	transition: color 0.5s ease;
+}
+#history
+{
+	animation-delay: 2s;
+	animation-direction: alternate;
+	animation-duration: 3s;
+	animation-fill-mode: backwards;
+	animation-iteration-count: calc(1);
+	animation-name: slidein;
+}
+@keyframes slidein
+{
+	from
+	{
+		margin-left: 100%;
+		width: 100%;
+	}
+	to
+	{
+		margin-left: 0%;
+		width: 88%;
+	}
+}
+.commentContainer {
+    margin-top: 30px;
+    display: block;
+    margin-left: 600px;
+}
+
+.commentary
+{
+	display: flex;
+	text-align: right;
+	margin-top: 30px;
+}
+
+.usersCommentary{
+    text-align:right;
+    padding-right: 80pt;
+    border-style: solid;
+    border-color:coral;
+    width: 30%;
+}
+#commentaryField
+{
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.4);
+	height: 40px;
+	padding: 30px;
+	width: 500px;
+}
+#commentaryHeader
+{
+	font-size: 20px;
+	margin-right: 200px;
+}
+.
+sendBtnClass {
+    padding-left: 20px;
+}
+#commentBtn
+{
+	font-family: "comic sans ms";
+	margin: 20px;
+	margin-top: 60px;
+}

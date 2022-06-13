@@ -1,0 +1,110 @@
+body {
+    font-family: 'comic sans ms', Courier;
+    font-size: 11pt;
+    background-color:#f8b627da; /*цвет фона #f8b627da*/
+    color:#d61987;
+
+}
+
+#header {
+    height: 90px;
+}
+#navigation {
+    background: #EF1040;
+    height: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.4);
+
+    font-size: 16px;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    top:10px;
+}
+
+#navigation.fixed {
+    position: fixed;
+    top:0;
+    width: 100%;
+    background: rgba(239, 5, 5, 0.95);
+}
+
+#navigation ul{
+    /* padding-left: 530px;  */
+    margin: 0 auto;
+    position: absolute;
+    left: 32%;
+}
+
+#menu li{
+    float: left;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0 25px;
+}
+
+#menu>li a:hover {
+    color: #656565;
+    transition: color 0.5s ease;
+}
+
+
+h1 {
+    font-size: 24pt;
+    font-weight: normal;
+}
+
+p {
+    text-align: justify;
+    margin-left: 60px;
+    margin-right: 10px;
+    border-left: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-top: 1px solid #999;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.wrapper {
+    background-size: contain;
+    justify-content: center;
+    display: flex;
+    /* width: 100%; */
+    /* margin: 100 px; */
+}
+
+
+.block {
+    display: flex;
+    flex-direction: column;
+
+    /* margin-left: 20mm; */
+    border-bottom: 5px solid pink;
+}
+
+.block_list {
+    display: flex;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin-left: 25mm;
+
+}
+
+.beer_video {
+    margin-left: 130mm;
+    width: 1em;
+    margin-top: 10mm;
+}
+
+h2#mainQuestion {
+    color: #d61987;
+    font-size: 50px;
+    text-align: center;
+}
+
+.siteHead {
+    margin-left: 150px;
+    display: flex;
+}
+

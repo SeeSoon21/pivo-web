@@ -1,0 +1,20 @@
+version: '3.3'
+
+services:
+
+  db:
+    image: mysql:5.6
+    ports:
+      - 3305:3306
+    volumes:
+      - ./db:/var/lib/mysql
+    environment:
+      - MYSQL_DATABASE=mydbtest
+      - MYSQL_PASSWORD=bebra_12
+      - MYSQL_ROOT_PASSWORD=bebra_12
+
+
+  adminer:
+    image: adminer
+    ports:
+      - 8080:8080
